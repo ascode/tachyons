@@ -1,15 +1,9 @@
 # Tachyons.io - Numenta Fork
 
 This is a customized Numenta web fork of Tachyons.
-It is to be used by http://numenta.com and http://numenta.org in 2016.
+It is being used by http://numenta.com and http://numenta.org in 2016.
 
-**Changes:**
-
-* `_media_query.css` widths:
-  * **s:** &gt; 0
-  * **m:** &gt; 48em ~~30em~~
-  * **l:** &gt; 64em ~~60em~~
-  * **xl:** &gt; 96em ~~120em~~
+**Changes:** See file `src/numenta-customcss`.
 
 ---
 
