@@ -1329,6 +1329,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .debug * { outline: 1px solid gold; }
 /* Uncomment out this line and rebuild if you want to debug your layout.*/
 /* @import './_debug'; */
+/**
+ * NUMENTA CUSTOM OVERRIDES!
+ */
+/**
+ * NUMENTA CUSTOM OVERRIDES!
+ */
+/**
+ * _line-height.css
+ *  - Bit less copy line-height.
+ */
+.lh-copy { line-height: 1.55; }
+/**
+ * _media-queries.css
+ *  - Custom mobile/tablet/desktop/hd widths.
+ */
 @media screen and (min-width: 48em) {
  .cover-ns { background-size: cover; }
  .contain-ns { background-size: contain; }
@@ -1661,6 +1676,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
+ .lh-copy-ns { line-height: 1.55; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .cover-m { background-size: cover; }
@@ -1994,6 +2010,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
  .v-btm-m { vertical-align: bottom; }
+ .lh-copy-m { line-height: 1.55; }
 }
 @media screen and (min-width: 64em) {
  .cover-l { background-size: cover; }
@@ -2327,5 +2344,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
+ .lh-copy-l { line-height: 1.55; }
 }
 

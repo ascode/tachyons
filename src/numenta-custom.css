@@ -1,9 +1,27 @@
-/*
+/**
+ * NUMENTA CUSTOM OVERRIDES!
+ */
 
-  NUMENTA CUSTOM OVERRIDES!
 
-*/
+/**
+ * _line-height.css
+ *  - Bit less copy line-height.
+ */
+.lh-copy  { line-height: 1.55; }
+@media (--breakpoint-not-small) {
+  .lh-copy-ns  { line-height: 1.55; }
+}
+@media (--breakpoint-medium) {
+  .lh-copy-m  { line-height: 1.55; }
+}
+@media (--breakpoint-large) {
+  .lh-copy-l  { line-height: 1.55; }
+}
 
+/**
+ * _media-queries.css
+ *  - Custom mobile/tablet/desktop/hd widths.
+ */
 @custom-media --breakpoint-not-small screen and (min-width: 48em);
 @custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --breakpoint-large screen and (min-width: 64em);
