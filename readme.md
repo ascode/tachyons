@@ -3,7 +3,7 @@
 This is a customized Numenta web fork of Tachyons.
 It is being used by http://numenta.com and http://numenta.org in 2016.
 
-**Changes:** See file `src/numenta-customcss`.
+**Changes:** `src/numenta-custom.css`
 
 ---
 
