@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "4.0.2",
+  "version": "4.0.4",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.css",
@@ -51,12 +51,13 @@
     }
   ],
   "scripts": {
-    "start": "npm run build",
+    "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "node build/index.js && npm run build:css && npm run build:minify",
+    "copy": "node build/index.js",
+    "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm start' ./src/"
+    "build:watch": "watch 'npm run build' ./src/"
   },
   "dependencies": {
     "tachyons-background-size": "^4.0.0",
@@ -73,7 +74,7 @@
     "tachyons-debug": "^1.1.3",
     "tachyons-display": "^4.1.1",
     "tachyons-flexbox": "^1.0.0",
-    "tachyons-floats": "^2.0.5",
+    "tachyons-floats": "^2.0.6",
     "tachyons-font-family": "^4.2.0",
     "tachyons-font-style": "^3.0.2",
     "tachyons-font-weight": "^4.0.4",
